@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5C67BDE241138030059859C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C67BDD241138030059859C /* AppDelegate.swift */; };
+		F5C67BE0241138030059859C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C67BDF241138030059859C /* SceneDelegate.swift */; };
+		F5C67BE2241138030059859C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C67BE1241138030059859C /* ContentView.swift */; };
+		F5C67BE4241138050059859C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C67BE3241138050059859C /* Assets.xcassets */; };
+		F5C67BE7241138050059859C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C67BE6241138050059859C /* Preview Assets.xcassets */; };
+		F5C67BEA241138050059859C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C67BE8241138050059859C /* LaunchScreen.storyboard */; };
+		F5C67BF5241138060059859C /* latam_biometric_enrollment_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C67BF4241138060059859C /* latam_biometric_enrollment_appTests.swift */; };
+		F5C67C00241138060059859C /* latam_biometric_enrollment_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C67BFF241138060059859C /* latam_biometric_enrollment_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5C67BF1241138060059859C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5C67BD2241138030059859C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5C67BD9241138030059859C;
+			remoteInfo = "latam-biometric-enrollment-app";
+		};
+		F5C67BFC241138060059859C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5C67BD2241138030059859C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5C67BD9241138030059859C;
+			remoteInfo = "latam-biometric-enrollment-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5C67BDA241138030059859C /* latam-biometric-enrollment-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "latam-biometric-enrollment-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C67BDD241138030059859C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5C67BDF241138030059859C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F5C67BE1241138030059859C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F5C67BE3241138050059859C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5C67BE6241138050059859C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5C67BE9241138050059859C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5C67BEB241138050059859C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C67BF0241138060059859C /* latam-biometric-enrollment-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "latam-biometric-enrollment-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C67BF4241138060059859C /* latam_biometric_enrollment_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = latam_biometric_enrollment_appTests.swift; sourceTree = "<group>"; };
+		F5C67BF6241138060059859C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C67BFB241138060059859C /* latam-biometric-enrollment-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "latam-biometric-enrollment-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C67BFF241138060059859C /* latam_biometric_enrollment_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = latam_biometric_enrollment_appUITests.swift; sourceTree = "<group>"; };
+		F5C67C01241138060059859C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5C67BD7241138030059859C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C67BED241138060059859C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C67BF8241138060059859C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5C67BD1241138030059859C = {
+			isa = PBXGroup;
+			children = (
+				F5C67BDC241138030059859C /* latam-biometric-enrollment-app */,
+				F5C67BF3241138060059859C /* latam-biometric-enrollment-appTests */,
+				F5C67BFE241138060059859C /* latam-biometric-enrollment-appUITests */,
+				F5C67BDB241138030059859C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5C67BDB241138030059859C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5C67BDA241138030059859C /* latam-biometric-enrollment-app.app */,
+				F5C67BF0241138060059859C /* latam-biometric-enrollment-appTests.xctest */,
+				F5C67BFB241138060059859C /* latam-biometric-enrollment-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5C67BDC241138030059859C /* latam-biometric-enrollment-app */ = {
+			isa = PBXGroup;
+			children = (
+				F5C67BDD241138030059859C /* AppDelegate.swift */,
+				F5C67BDF241138030059859C /* SceneDelegate.swift */,
+				F5C67BE1241138030059859C /* ContentView.swift */,
+				F5C67BE3241138050059859C /* Assets.xcassets */,
+				F5C67BE8241138050059859C /* LaunchScreen.storyboard */,
+				F5C67BEB241138050059859C /* Info.plist */,
+				F5C67BE5241138050059859C /* Preview Content */,
+			);
+			path = "latam-biometric-enrollment-app";
+			sourceTree = "<group>";
+		};
+		F5C67BE5241138050059859C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F5C67BE6241138050059859C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5C67BF3241138060059859C /* latam-biometric-enrollment-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5C67BF4241138060059859C /* latam_biometric_enrollment_appTests.swift */,
+				F5C67BF6241138060059859C /* Info.plist */,
+			);
+			path = "latam-biometric-enrollment-appTests";
+			sourceTree = "<group>";
+		};
+		F5C67BFE241138060059859C /* latam-biometric-enrollment-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5C67BFF241138060059859C /* latam_biometric_enrollment_appUITests.swift */,
+				F5C67C01241138060059859C /* Info.plist */,
+			);
+			path = "latam-biometric-enrollment-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5C67BD9241138030059859C /* latam-biometric-enrollment-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C67C04241138060059859C /* Build configuration list for PBXNativeTarget "latam-biometric-enrollment-app" */;
+			buildPhases = (
+				F5C67BD6241138030059859C /* Sources */,
+				F5C67BD7241138030059859C /* Frameworks */,
+				F5C67BD8241138030059859C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "latam-biometric-enrollment-app";
+			productName = "latam-biometric-enrollment-app";
+			productReference = F5C67BDA241138030059859C /* latam-biometric-enrollment-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5C67BEF241138060059859C /* latam-biometric-enrollment-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C67C07241138060059859C /* Build configuration list for PBXNativeTarget "latam-biometric-enrollment-appTests" */;
+			buildPhases = (
+				F5C67BEC241138060059859C /* Sources */,
+				F5C67BED241138060059859C /* Frameworks */,
+				F5C67BEE241138060059859C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5C67BF2241138060059859C /* PBXTargetDependency */,
+			);
+			name = "latam-biometric-enrollment-appTests";
+			productName = "latam-biometric-enrollment-appTests";
+			productReference = F5C67BF0241138060059859C /* latam-biometric-enrollment-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5C67BFA241138060059859C /* latam-biometric-enrollment-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C67C0A241138060059859C /* Build configuration list for PBXNativeTarget "latam-biometric-enrollment-appUITests" */;
+			buildPhases = (
+				F5C67BF7241138060059859C /* Sources */,
+				F5C67BF8241138060059859C /* Frameworks */,
+				F5C67BF9241138060059859C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5C67BFD241138060059859C /* PBXTargetDependency */,
+			);
+			name = "latam-biometric-enrollment-appUITests";
+			productName = "latam-biometric-enrollment-appUITests";
+			productReference = F5C67BFB241138060059859C /* latam-biometric-enrollment-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5C67BD2241138030059859C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Nicolas Perez";
+				TargetAttributes = {
+					F5C67BD9241138030059859C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					F5C67BEF241138060059859C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = F5C67BD9241138030059859C;
+					};
+					F5C67BFA241138060059859C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = F5C67BD9241138030059859C;
+					};
+				};
+			};
+			buildConfigurationList = F5C67BD5241138030059859C /* Build configuration list for PBXProject "latam-biometric-enrollment-app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5C67BD1241138030059859C;
+			productRefGroup = F5C67BDB241138030059859C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5C67BD9241138030059859C /* latam-biometric-enrollment-app */,
+				F5C67BEF241138060059859C /* latam-biometric-enrollment-appTests */,
+				F5C67BFA241138060059859C /* latam-biometric-enrollment-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5C67BD8241138030059859C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C67BEA241138050059859C /* LaunchScreen.storyboard in Resources */,
+				F5C67BE7241138050059859C /* Preview Assets.xcassets in Resources */,
+				F5C67BE4241138050059859C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C67BEE241138060059859C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C67BF9241138060059859C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5C67BD6241138030059859C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C67BDE241138030059859C /* AppDelegate.swift in Sources */,
+				F5C67BE0241138030059859C /* SceneDelegate.swift in Sources */,
+				F5C67BE2241138030059859C /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C67BEC241138060059859C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C67BF5241138060059859C /* latam_biometric_enrollment_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C67BF7241138060059859C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C67C00241138060059859C /* latam_biometric_enrollment_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5C67BF2241138060059859C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5C67BD9241138030059859C /* latam-biometric-enrollment-app */;
+			targetProxy = F5C67BF1241138060059859C /* PBXContainerItemProxy */;
+		};
+		F5C67BFD241138060059859C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5C67BD9241138030059859C /* latam-biometric-enrollment-app */;
+			targetProxy = F5C67BFC241138060059859C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5C67BE8241138050059859C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5C67BE9241138050059859C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5C67C02241138060059859C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5C67C03241138060059859C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5C67C05241138060059859C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"latam-biometric-enrollment-app/Preview Content\"";
+				DEVELOPMENT_TEAM = 57KMT8SLWX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "latam-biometric-enrollment-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rokketlabs.latam-biometric-enrollment-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5C67C06241138060059859C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"latam-biometric-enrollment-app/Preview Content\"";
+				DEVELOPMENT_TEAM = 57KMT8SLWX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "latam-biometric-enrollment-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rokketlabs.latam-biometric-enrollment-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5C67C08241138060059859C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57KMT8SLWX;
+				INFOPLIST_FILE = "latam-biometric-enrollment-appTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rokketlabs.latam-biometric-enrollment-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/latam-biometric-enrollment-app.app/latam-biometric-enrollment-app";
+			};
+			name = Debug;
+		};
+		F5C67C09241138060059859C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57KMT8SLWX;
+				INFOPLIST_FILE = "latam-biometric-enrollment-appTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rokketlabs.latam-biometric-enrollment-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/latam-biometric-enrollment-app.app/latam-biometric-enrollment-app";
+			};
+			name = Release;
+		};
+		F5C67C0B241138060059859C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57KMT8SLWX;
+				INFOPLIST_FILE = "latam-biometric-enrollment-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rokketlabs.latam-biometric-enrollment-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "latam-biometric-enrollment-app";
+			};
+			name = Debug;
+		};
+		F5C67C0C241138060059859C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57KMT8SLWX;
+				INFOPLIST_FILE = "latam-biometric-enrollment-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rokketlabs.latam-biometric-enrollment-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "latam-biometric-enrollment-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5C67BD5241138030059859C /* Build configuration list for PBXProject "latam-biometric-enrollment-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C67C02241138060059859C /* Debug */,
+				F5C67C03241138060059859C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C67C04241138060059859C /* Build configuration list for PBXNativeTarget "latam-biometric-enrollment-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C67C05241138060059859C /* Debug */,
+				F5C67C06241138060059859C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C67C07241138060059859C /* Build configuration list for PBXNativeTarget "latam-biometric-enrollment-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C67C08241138060059859C /* Debug */,
+				F5C67C09241138060059859C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C67C0A241138060059859C /* Build configuration list for PBXNativeTarget "latam-biometric-enrollment-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C67C0B241138060059859C /* Debug */,
+				F5C67C0C241138060059859C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5C67BD2241138030059859C /* Project object */;
+}
