@@ -1,0 +1,26 @@
+PODS:
+  - JumioMobileSDK (3.5.0):
+    - JumioMobileSDK/JumioMobileSDK (= 3.5.0)
+  - JumioMobileSDK/JumioMobileSDK (3.5.0)
+  - JumioMobileSDK/Netverify (3.5.0)
+  - JumioMobileSDK/NetverifyBarcode (3.5.0)
+  - JumioMobileSDK/NetverifyBase (3.5.0)
+  - JumioMobileSDK/NetverifyFace (3.5.0)
+
+DEPENDENCIES:
+  - JumioMobileSDK (~> 3.5.0)
+  - JumioMobileSDK/Netverify (~> 3.5.0)
+  - JumioMobileSDK/NetverifyBarcode (~> 3.5.0)
+  - JumioMobileSDK/NetverifyBase (~> 3.5.0)
+  - JumioMobileSDK/NetverifyFace (~> 3.5.0)
+
+SPEC REPOS:
+  trunk:
+    - JumioMobileSDK
+
+SPEC CHECKSUMS:
+  JumioMobileSDK: 38099f2b8d7e264a0268dbce961222cead093212
+
+PODFILE CHECKSUM: 021f0a61a8ddc882df02a82626db61dd5469257a
+
+COCOAPODS: 1.8.4
